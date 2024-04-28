@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "documon"
+version = "0.1.0"
+description = ""
+authors = ["Tobias Duewell <dev@duewell.ch>"]
+readme = "README.md"
+packages = [
+    { include = "DocuMon" },
+    {include = "example"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
